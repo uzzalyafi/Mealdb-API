@@ -76,7 +76,7 @@ function detailsPopup(dtls) {
   mealPopup.style.display = "block";
   mealPopup.style.display = "flex";
   mealPopup.innerHTML = `
-    <div class="bg-white w-full md:w-1/2 p-8 md:p-5 rounded-lg relative max-h-[90%] overflow-y-auto">
+    <div class="bg-white w-full md:w-1/2 p-12 md:p-5 rounded-lg relative max-h-[90%] overflow-y-auto">
         <button id="closePopup" class="absolute top-2 right-4 text-black text-xl font-bold">
           X
         </button>

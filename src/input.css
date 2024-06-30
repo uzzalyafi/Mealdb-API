@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply bg-orange-500 hover:bg-orange-700 text-white px-6 py-2 rounded-lg text-lg font-semibold;
+}
